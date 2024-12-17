@@ -1,0 +1,6 @@
+@MixvelTestApp_HostAddress = http://localhost:5043
+
+GET {{MixvelTestApp_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

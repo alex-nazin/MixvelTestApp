@@ -1,0 +1,22 @@
+services:
+  mixveltestapp:
+    image: ${DOCKER_REGISTRY-}mixveltestapp
+    container_name: "Mixvel-Test-Application"
+    build:
+      context: MixvelTestApp
+      dockerfile: Dockerfile
+
+  provider-one:
+    image: ${DOCKER_REGISTRY-}provideroneapp
+    container_name: "Provider-One"
+    build:
+      context: .
+      dockerfile: ProviderOneApp/Dockerfile
+
+
+  provider-two:
+    image: ${DOCKER_REGISTRY-}providertwoapp
+    container_name: "Provider-Two"
+    build:
+      context: .
+      dockerfile: ProviderTwoApp/Dockerfile

@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35521.163
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MixvelTestApp", "MixvelTestApp\MixvelTestApp.csproj", "{3B779609-632A-400E-B624-DF97C00290F9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProviderOne", "ProviderOne", "{3D632AEB-A043-493D-A9F5-87F960A00E95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProviderOneApp", "ProviderOneApp\ProviderOneApp.csproj", "{C634EE0D-882B-4C5E-BC3F-F200EB9BABEB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProviderTwo", "ProviderTwo", "{10F02C8D-B9EE-4956-A060-0803BF56B0F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProviderTwoApp", "ProviderTwoApp\ProviderTwoApp.csproj", "{2C6888C0-69EB-4EE4-BF98-0B367F954DB7}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{46460659-BA6E-4CEE-A02A-1C7B0C36620C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProviderOne.Dtos", "ProviderOne.Dtos\ProviderOne.Dtos.csproj", "{F0278555-5D53-4834-A395-F3A633886DB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProviderTwo.Dtos", "ProviderTwo.Dtos\ProviderTwo.Dtos.csproj", "{80F02746-4494-4DB3-8A69-13026C2AA6AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3B779609-632A-400E-B624-DF97C00290F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B779609-632A-400E-B624-DF97C00290F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B779609-632A-400E-B624-DF97C00290F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B779609-632A-400E-B624-DF97C00290F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C634EE0D-882B-4C5E-BC3F-F200EB9BABEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C634EE0D-882B-4C5E-BC3F-F200EB9BABEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C634EE0D-882B-4C5E-BC3F-F200EB9BABEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C634EE0D-882B-4C5E-BC3F-F200EB9BABEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C6888C0-69EB-4EE4-BF98-0B367F954DB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C6888C0-69EB-4EE4-BF98-0B367F954DB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C6888C0-69EB-4EE4-BF98-0B367F954DB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C6888C0-69EB-4EE4-BF98-0B367F954DB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46460659-BA6E-4CEE-A02A-1C7B0C36620C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46460659-BA6E-4CEE-A02A-1C7B0C36620C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46460659-BA6E-4CEE-A02A-1C7B0C36620C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46460659-BA6E-4CEE-A02A-1C7B0C36620C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0278555-5D53-4834-A395-F3A633886DB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0278555-5D53-4834-A395-F3A633886DB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0278555-5D53-4834-A395-F3A633886DB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0278555-5D53-4834-A395-F3A633886DB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80F02746-4494-4DB3-8A69-13026C2AA6AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80F02746-4494-4DB3-8A69-13026C2AA6AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80F02746-4494-4DB3-8A69-13026C2AA6AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80F02746-4494-4DB3-8A69-13026C2AA6AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C634EE0D-882B-4C5E-BC3F-F200EB9BABEB} = {3D632AEB-A043-493D-A9F5-87F960A00E95}
+		{2C6888C0-69EB-4EE4-BF98-0B367F954DB7} = {10F02C8D-B9EE-4956-A060-0803BF56B0F3}
+		{F0278555-5D53-4834-A395-F3A633886DB2} = {3D632AEB-A043-493D-A9F5-87F960A00E95}
+		{80F02746-4494-4DB3-8A69-13026C2AA6AB} = {10F02C8D-B9EE-4956-A060-0803BF56B0F3}
+	EndGlobalSection
+EndGlobal
